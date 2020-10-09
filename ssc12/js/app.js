@@ -31,7 +31,7 @@ function popupResult(result) {
 function drawFrame() {
   var img = new Image();
   img.crossOrigin = "Anonymous";
-  img.src = 'images/frame.png';  
+  img.src = 'images/berbatik.png';  
   img.onload = function() {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
     popupResult({
